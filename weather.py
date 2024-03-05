@@ -28,6 +28,7 @@ def get_weather():
         time_lable.config(text="LOCAL TIME")
 
         #weather
+        #openweathermap.org // login or singup // Click on,API keys // copy key // click on API , Current Weather Data, API doc , copy API call
         api_key = "23b8f40d99de0a890528f25d7f8d5697"
         api = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lng}&appid={api_key}"
 
